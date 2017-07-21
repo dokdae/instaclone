@@ -16,44 +16,30 @@
     <a href="profile.html" class="navigation__links"><i class="fa fa-user-o"></i></a>
   </div>
 </nav>
-<main class="profile">
-  <header class="profile__header">
-    <img src="images/daekeon.jpg">
-    <div class="profile__info">
-      <div class="profile__name">
-        <h3 class="profile__username">daekeonkim</h3>
-        <a href="edit-profile.html">Edit Profile</a>
-        <i class="fa fa-cog"></i>
+<main class="image-detail">
+  <div class="photo">
+    <img src="images/feedPhoto.jpg" class="photo__image">
+    <header class="photo__header">
+      <a href="profile.html" class="photo__thumb"><img src="images/daekeon.jpg"></a>
+      <span class="photo__username">daekeonkim</span>
+    </header>
+    <ul class="photo__comments">
+      <li class="photo__comment"><span class="photo__comment-author">daekeonkim</span> Hey <a href="profile.html">@daekeonkim</a>,this is awesome!</li>
+      <li class="photo__comment"><span class="photo__comment-author">daekeonkim</span> Hello?</li>
+      <li class="photo__comment"><span class="photo__comment-author">daekeonkim</span> Hello?</li>
+      <li class="photo__comment"><span class="photo__comment-author">daekeonkim</span> Can you hear me?</li>
+    </ul>
+    <div class="photo__info">
+      <div class="photo__actions">
+        <i class="fa fa-heart-o"></i>
+        <i class="fa fa-comment-o"></i>
       </div>
-      <div class="profile__stats">
-        <ul>
-          <li class="profile__stat"><span class="profile__stat-number">6</span> posts</li>
-          <li class="profile__stat"><span class="profile__stat-number">5,000</span> followers</li>
-          <li class="profile__stat"><span class="profile__stat-number">1</span> following</li>
-        </ul>
-      </div>
-      <div class="profile__bio">
-        <p>
-          <span class="profile__bio-name">Daekeon Kim</span> Wanna travel the world forever!
-          <a href="daekeonkim.com">daekeonkim.com</a>
-        </p>
-      </div>
-    </div>
-  </header>
-  <div class="profile__images">
-    <div class="profile__image-row">
-      <div class="profile__image">
-        <a href="image-detail.html"><img src="images/feedPhoto.jpg"></a>
-        <div class="profile__image-overlay">
-          <div class="profile__image-number">
-            <i class="fa fa-heart"></i>
-            <span>5,393</span>
-          </div>
-          <div class="profile__image-number">
-            <i class="fa fa-comment"></i>
-            <span>4</span>
-          </div>
-        </div>
+
+      <span class="photo__likes">5,393 likes</span>
+      <span class="photo__date">12 hours ago</span>
+      <div class="photo__add-comment">
+        <textarea placeholder="Add comment..."></textarea>
+        <i class="fa fa-ellipsis-h"></i>
       </div>
     </div>
   </div>
