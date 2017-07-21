@@ -20,28 +20,42 @@
   <header class="profile__header">
     <img src="images/daekeon.jpg">
     <div class="profile__info">
-      <div class="profile__info-user">
-        <h1>daekeonkim</h1>
-        <button>Edit Profile</button>
+      <div class="profile__name">
+        <h3 class="profile__username">daekeonkim</h3>
+        <a href="edit-profile.html">Edit Profile</a>
         <i class="fa fa-cog"></i>
       </div>
-      <div class="profile__info-status">
+      <div class="profile__stats">
         <ul>
-          <li><span>6</span> posts</li>
-          <li><span>5,000</span> followers</li>
-          <li><span>1</span> following</li>
+          <li class="profile__stat"><span class="profile__stat-number">6</span> posts</li>
+          <li class="profile__stat"><span class="profile__stat-number">5,000</span> followers</li>
+          <li class="profile__stat"><span class="profile__stat-number">1</span> following</li>
         </ul>
       </div>
-      <div class="profile__info-description">
-        <p><span>Daekeon Kim</span> Wanna travel the world forever!</p>
-        <a href="daekeonkim.com">daekeonkim.com</a>
+      <div class="profile__bio">
+        <p>
+          <span class="profile__bio-name">Daekeon Kim</span> Wanna travel the world forever!
+          <a href="daekeonkim.com">daekeonkim.com</a>
+        </p>
       </div>
     </div>
   </header>
-  <div class="profile__contents">
-    <img src="images/og 300x300.jpg">
-    <img src="images/og 300x300.jpg">
-    <img src="images/og 300x300.jpg">
+  <div class="profile__images">
+    <div class="profile__image-row">
+      <div class="profile__image">
+        <img src="images/og 300x300.jpg">
+        <div class="profile__image-overlay">
+          <div class="profile__image-number">
+            <i class="fa fa-heart"></i>
+            <span>456</span>
+          </div>
+          <div class="profile__image-number">
+            <i class="fa fa-comment"></i>
+            <span>666</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 <footer class="footer">
