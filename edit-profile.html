@@ -16,55 +16,54 @@
     <a href="profile.html" class="navigation__links"><i class="fa fa-user-o"></i></a>
   </div>
 </nav>
-<main class="edit">
-  <div class="edit__box">
-    <div class="edit__profile">
-      <img src="images/daekeon.jpg" class="edit__profile-thumb">
-      <h3 class="edit__profile-user">daekeonkim</h3>
-    </div>
-    <div class="edit__name">
-      <span class="edit__name-subject">Name</span>
-      <input type="text" class="edit__name-input" placeholder="Name">
-    </div>
-    <div class="edit__username">
-      <span class="edit__username-subject">Username</span>
-      <input type="text" class="edit__username-input" placeholder="Username">
-    </div>
-    <div class="edit__website">
-      <span class="edit__website-subject">Website</span>
-      <input type="text" class="edit__website-input" placeholder="Website">
-    </div>
-    <div class="edit__bio">
-      <span class="edit__bio-subject">Bio</span>
-      <textarea placeholder="Bio" class="edit__bio-input">Wanna travel the world forever!</textarea>
-    </div>
-    <span class="edit__divider">private information</span>
-    <div class="edit__email">
-      <span class="edit__email-subject">Email</span>
-      <input type="text" class="edit__email-input" placeholder="Email">
-    </div>
-    <div class="edit__phonenumber">
-      <span class="edit__phonenumber-subject">Phone Number</span>
-      <input type="text" class="edit__phonenumber-input" placeholder="Phone Number">
-    </div>
-    <div class="edit__gender">
-      <span class="edit__gender-subject">Gender</span>
-      <select class="edit__gender-select">
-        <option value="value1" selected>Male</option>
-        <option value="value2">Female</option>
-      </select>
-    </div>
-    <div class="edit__suggestion">
-      <span class="edit__suggestion-subject">Similar Account<br />Suggestions</span>
-      <input type="checkbox" class="edit__suggestion-check" />
-      <p>
-        Include your account when recommending similar accounts people might want to follow.
-      </p>
-      <a href="https://help.instagram.com/530450580417848">[?]</a>
-    </div>
-    <input type="submit" value="Submit">
-    <a href="#">Temporarily disable my account</a>
+<main class="edit-profile">
+  <div class="edit-profile__name">
+    <img src="images/daekeon.jpg" class="edit-profile__thumb" />
+    <h3 class="edit-profile__username">daekeonkim</h3>
   </div>
+
+  <ul class="edit-profile__list">
+    <form action="profile.html" method="get">
+      <li class="edit-profile__list-item">
+        <label for="name" class="edit-profile__type">Name</label>
+        <input id="name" type="text" value="Daekeon Kim" required>
+      </li>
+      <li class="edit-profile__list-item">
+        <label for="username" class="edit-profile__type">Username</label>
+        <input id="username" type="text" value="daekeonkim" required /></li>
+      <li class="edit-profile__list-item">
+        <label for="website" class="edit-profile__type">Website</label>
+        <input id="website" type="url" value="http://daekeonkim.com" required /></li>
+      <li class="edit-profile__list-item">
+        <label for="bio" class="edit-profile__type">Bio</label>
+        <textarea id="bio" name="edit__bio">Wanna travel the world forever!</textarea></li>
+      <li class="edit-profile__list-item">
+        <label for="email" class="edit-profile__type">Email</label>
+        <input id="email" type="email" value="kimdaekeon@gmail.com" required /></li>
+      <li class="edit-profile__list-item">
+        <label for="phone-number" class="edit-profile__type">Phone Number</label>
+        <input id="phone-number" type="text" value="+821075338045" required /></li>
+      <li class="edit-profile__list-item">
+        <label for="gender" class="edit-profile__type">Gender</label>
+        <select id="gender">
+            <option value="male" selected>Male</option>
+            <option value="female">Female</option>
+            <option value="dont-know">Not specified</option>
+          </select>
+      </li>
+      <li class="edit-profile__list-item">
+        <span class="edit-profile__type">Similar Account Suggestions</span>
+        <input type="checkbox" id="similar" name="subscribe" value="similar_accounts" checked>
+        <label for="similar">Suggest Similar accounts to your user account</label>
+      </li><input type="submit" value="Submit">
+
+    </form>
+  </ul>
+  </div>
+
+
+
+
 </main>
 <footer class="footer">
   <nav class="footer__nav">
@@ -80,7 +79,7 @@
       <li class="footer__list-item"><a href="#" class="footer__link">directory</a></li>
       <li class="footer__list-item"><a href="#" class="footer__link">language</a></li>
     </ul>
-    <span class="footer__copy">© 2017 Instagram</span>
+    <label class="footer__copy">© 2017 Instagram</label>
   </nav>
 </footer>
 
