@@ -7,10 +7,15 @@
 .profile .profile__header {
   display: flex;
   align-items: center;
+  margin-bottom: 44px;
+}
+
+.profile__header--column {
+  margin-right: 30px;
 }
 
 .profile__header--thumb {
-  margin: auto 75px;
+  margin: 0 75px;
 }
 
 .profile__header--thumb img {
@@ -22,4 +27,35 @@
 .profile__image img {
   width: 300px;
   height: 300px;
+}
+
+.profile__name {
+  display: flex;
+  align-items: center;
+}
+
+.profile__name h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.profile__name a {
+  margin-left: 20px;
+}
+
+.profile__name button {
+  height: 28px;
+  padding: 0 24px;
+  margin-right: 6px;
+  border: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile__name i {
+  font-size: 24px
 }
