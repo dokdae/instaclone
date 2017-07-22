@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-.photo__actions:first-child button:active {
+.photo__actions:first-child button:first-child:active {
   color: red;
 }
 
