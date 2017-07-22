@@ -59,14 +59,35 @@
 
 .login .login__box form input[type="submit"] {
   margin-top: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background: #3897f0;
+  padding-top: 10px 0;
+  background: #385185;
   color: white;
   border: 0;
+  font-weight: 600;
 }
 
 .login .login__box .login__divider {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  display: block;
+  margin: 20px 0;
+  font-size: 13px;
+  color: #999;
+}
+
+.login .login__fb-link {
+  margin-bottom: 20px;
+  display: block;
+  color: #385185;
+  font-size: 16px;
+}
+
+.login .login_link--small {
+  display: block;
+  font-size: 12px;
+}
+
+.login .login__link--blue {
+  color: #3897f0;
+  font-weight: 600;
 }
