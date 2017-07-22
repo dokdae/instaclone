@@ -1,8 +1,9 @@
 .footer {
   width: 100%;
-  max-width: 800px;
+  max-width: 935px;
   margin: 50px auto;
   display: flex;
+  /*flex-direction: column;*/
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
