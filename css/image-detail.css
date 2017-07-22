@@ -10,6 +10,16 @@
   width: 60%;
 }
 
+.photo--detail .photo__header {
+  height: 80px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.photo--detail .photo__comments {
+  padding: 0 24px;
+}
+
 .photo--detail .photo__info {
   width: 40%;
 }
