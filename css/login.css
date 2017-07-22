@@ -1,14 +1,19 @@
 .login {
   width: 100%;
-  max-width: 935px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
 .login .login__column:first-child {
-  margin-right: 30px;
+  width: 50%;
+}
+
+.login .login__column {
+  width: 45%;
 }
 
 .login .login__box {
@@ -33,5 +38,35 @@
 }
 
 .login .login__box--transparent .login__appstore {
-  height: 40px;
+  height: 36px;
+}
+
+.login .login__box form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border: 0;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login .login__box form input:focus {
+  outline: none;
+  border: 1px solid #b2b2b2;
+}
+
+.login .login__box form input[type="submit"] {
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #3897f0;
+  color: white;
+  border: 0;
+}
+
+.login .login__box .login__divider {
+  text-transform: uppercase;
+  font-weight: bold;
 }
