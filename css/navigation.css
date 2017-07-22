@@ -1,5 +1,5 @@
 .navigation {
-  width: 100%;
+  /*position: fixed;*/
   height: 75px;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .navigation__input {
-  padding: 5px 20px;
+  padding: 5px 40px;
   font-size: 14px;
   text-align: center;
   color: #999;
