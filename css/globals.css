@@ -3,6 +3,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+input:focus {
+  outline: none;
 }
