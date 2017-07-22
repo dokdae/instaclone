@@ -21,7 +21,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .photo .photo__header .photo__username {
@@ -40,14 +40,21 @@
   padding: 0 16px;
 }
 
-.photo__info .photo__actions i {
+.photo__info .photo__actions button {
+  background-color: transparent;
+  border: 0;
   height: 40px;
   padding: 8px;
   margin-top: 4px;
   font-size: 24px;
+  cursor: pointer;
 }
 
-.photo__info .photo__actions i:first-child {
+.photo__actions:first-child button:active {
+  color: red;
+}
+
+.photo__info .photo__actions button:first-child {
   margin-left: -8px;
 }
 
@@ -77,15 +84,30 @@
   text-transform: uppercase;
 }
 
-.photo__add-comment textarea {
-  width: 100%;
-  margin-top: 8px;
+.photo__add-comment {
   border: 0;
   border-top: 1px solid #e6e6e6;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.photo__add-comment textarea {
+  width: 100%;
+  border: none;
+  /*border-top: 1px solid #e6e6e6;*/
   padding: 16px 26px 16px 0;
   font-size: 14px;
 }
 
 .photo__add-comment textarea:focus {
   outline: none;
+}
+
+.photo__add-comment button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 6px;
+  font-size: 24px;
 }
