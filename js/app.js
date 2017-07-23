@@ -1,9 +1,16 @@
 $(document).ready(function() {
   var $heart = $(".heart");
   $heart.click(function() {
-    console.log("I got clicked!!")
+    $(this).addClass("heart-pumping");
   });
 });
+
+// $(document).ready(function() {
+//   var $heart = $(".heart");
+//   $heart.click(function() {
+//     console.log("I got clicked!!")
+//   });
+// });
 
 // var drinks = ["soju", "beer", "whisky"];
 //
