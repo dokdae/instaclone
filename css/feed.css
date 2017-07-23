@@ -19,6 +19,19 @@
   height: 30px;
   border-radius: 50%;
   margin-right: 8px;
+  animation: 1.5s test infinite linear;
+}
+
+@keyframes test {
+  0% {
+    transform: rotate(0turn)
+  }
+  50% {
+    transform: rotate(1turn)
+  }
+  100% {
+    transform: rotate(-1turn)
+  }
 }
 
 .photo .photo__header .photo__username {
