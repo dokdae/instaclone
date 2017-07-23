@@ -3,10 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   max-width: 900px;
-<<<<<<< HEAD
-=======
   max-height: 600px;
->>>>>>> master
 }
 
 .photo--detail .photo__image {
@@ -14,11 +11,10 @@
   width: 60%;
 }
 
-<<<<<<< HEAD
 .photo--detail .photo__info {
   width: 40%;
 }
-=======
+
 .photo--detail .photo__header {
   border-bottom: 1px solid #e6e6e6;
   height: 80px;
@@ -37,4 +33,3 @@
 .photo--detail .photo__actions {
   border-top: 1px solid #e6e6e6;
 }
->>>>>>> master
