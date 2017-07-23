@@ -143,3 +143,43 @@
     transform: scale(0.8, 0.8);
   }
 }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.overlay i {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.overlay .overlay__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.overlay__menu a {
+  background-color: white;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+  width: 500px;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.overlay__menu a:hover {
+  background-color: #e6e6e6;
+}
