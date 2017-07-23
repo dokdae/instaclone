@@ -27,9 +27,11 @@
   .explore {
     margin-top: 0;
     border: none;
+    background-color: transparent;
   }
   .explore .users__user {
     border: none;
+    /*padding: 5px 10px;*/
   }
   .photo .photo__add-comment {
     display: none;
