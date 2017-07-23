@@ -19,7 +19,7 @@
   height: 30px;
   border-radius: 50%;
   margin-right: 8px;
-  animation: 2s test infinite linear;
+  animation: 1.5s test infinite linear;
 }
 
 @keyframes test {
@@ -27,7 +27,7 @@
     transform: rotate(0turn)
   }
   50% {
-    transform: rotate(1.5turn)
+    transform: rotate(1.2turn)
   }
   100% {
     transform: rotate(-1turn)
