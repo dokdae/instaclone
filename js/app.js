@@ -1,7 +1,12 @@
 $(document).ready(function() {
   var $heart = $(".heart");
   $heart.click(function() {
-    $(this).addClass("heart-pumping");
+    $(this).toggleClass("heart-pumping");
+    // if ($(this).hasClass("heart-pumping")) {
+    //   $(this).removeClass("heart-pumping");
+    // } else {
+    //   $(this).addClass("heart-pumping");
+    // }
   });
 });
 
