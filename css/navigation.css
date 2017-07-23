@@ -25,3 +25,17 @@
   border-radius: 3px;
   background-color: #fafafa;
 }
+
+.navigation__icons .fa-heart-o {
+  animation: 1.2s test2 infinite linear;
+}
+
+@keyframes test2 {
+  from {
+    transform: scale(0.8, 0.8);
+  }
+  to {
+    color: #fb3958;
+    transform: scale(1.2, 1.2);
+  }
+}
