@@ -75,11 +75,15 @@
   color: #999;
 }
 
+.login .login__box .login__text, .login_link {
+  font-size: 14px;
+}
+
 .login .login__fb-link {
   margin-bottom: 20px;
   display: block;
   color: #385185;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .login .login_link--small {
