@@ -69,6 +69,10 @@
   color: #3897f0;
 }
 
+.photo__comment a:hover {
+  color: #385185;
+}
+
 .photo__comment .photo__comment-author {
   font-weight: 600;
   margin-right: 6px;
