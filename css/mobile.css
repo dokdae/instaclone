@@ -1,0 +1,66 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .navigation {
+    padding: 0 20px;
+  }
+  .navigation__input {
+    display: none;
+  }
+  .login {
+    background-color: white;
+    margin-top: 0;
+  }
+  .login .login__column:first-child {
+    display: none;
+  }
+  .login .login__column {
+    width: 100%;
+  }
+  .login .login__box {
+    background-color: transparent;
+    border: none;
+  }
+  .photo {
+    margin-top: 0;
+    background-color: transparent;
+    border: none;
+  }
+  .explore {
+    margin-top: 0;
+    border: none;
+  }
+  .explore .users__user {
+    border: none;
+  }
+  .photo .photo__add-comment {
+    display: none;
+  }
+  .photo--detail, .photo--detail .photo__image, .photo--detail .photo__info {
+    display: block;
+    width: 100%;
+  }
+  .photo--detail .photo__header {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+  }
+  .photo--detail .photo__comments {
+    height: auto;
+  }
+  .photo--detail .photo__header, .photo--detail .photo__actions {
+    border: none;
+  }
+  .footer {
+    font-size: 12px;
+    width: 85%;
+  }
+  .footer, .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__list {
+    margin-bottom: 10px;
+  }
+  .footer__list-item {
+    margin-bottom: 10px;
+  }
+}
