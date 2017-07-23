@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var $heart = $(".heart");
   $heart.click(function() {
-    $(this).toggleClass("heart-pumping");
+    $(this).toggleClass("fa-heart-o fa-heart heart-pumping");
     // if ($(this).hasClass("heart-pumping")) {
     //   $(this).removeClass("heart-pumping");
     // } else {
