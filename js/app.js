@@ -8,26 +8,25 @@ $(document).ready(function() {
   $ellipsis.click(function() {
     $overlay.fadeIn(100);
   });
-
-  $close.click(closePopUp);
-  $cancel.click(closePopUp);
-
-  function closePopup(event) {
-    event.preventDefault();
+  $close.click(function() {
+    $overlay.fadeOut(100);
+  });
+  $cancel.click(function() {
     $overlay.fadeOut(100);
   });
 
-$heart.click(function() {
-  $(this).toggleClass("fa-heart-o fa-heart heart-pumping");
+
+  $heart.click(function() {
+    $(this).toggleClass("fa-heart-o fa-heart heart-pumping");
 
 
 
-  // if ($(this).hasClass("heart-pumping")) {
-  //   $(this).removeClass("heart-pumping");
-  // } else {
-  //   $(this).addClass("heart-pumping");
-  // }
-});
+    // if ($(this).hasClass("heart-pumping")) {
+    //   $(this).removeClass("heart-pumping");
+    // } else {
+    //   $(this).addClass("heart-pumping");
+    // }
+  });
 });
 
 // $(document).ready(function() {
