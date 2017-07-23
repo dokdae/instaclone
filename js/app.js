@@ -12,10 +12,14 @@ var soldier = {
 
 var age = prompt("How old are you?");
 
-if (age > 18) {
-  console.log("drink!");
-} else {
+if (age < 18) {
   console.log("GTFO!!!");
+} else if (age > 18 && age < 50) {
+  console.log("You're a father");
+} else if (age > 50 && age < 80) {
+  console.log("Hello grandpa!");
+} else {
+  console.log("U r dead 2 me")
 }
 
 //
