@@ -1,32 +1,32 @@
 $(document).ready(function() {
-  var $heart = $(".heart"),
-    $ellipsis = $(".fa-ellipsis-h"),
-    $overlay = $(".overlay"),
-    $close = $(".fa-times"),
-    $cancel = $(".link--cancel");
+var $heart = $(".heart"),
+  $ellipsis = $(".fa-ellipsis-h"),
+  $overlay = $(".overlay"),
+  $close = $(".fa-times"),
+  $cancel = $(".link--cancel");
 
-  $ellipsis.click(function() {
-    $overlay.fadeIn(100);
-  });
-  $close.click(function() {
-    $overlay.fadeOut(100);
-  });
-  $cancel.click(function() {
-    $overlay.fadeOut(100);
-  });
-
-
-  $heart.click(function() {
-    $(this).toggleClass("fa-heart-o fa-heart heart-pumping");
+$ellipsis.click(function() {
+  $overlay.fadeIn(100);
+});
+$close.click(function() {
+  $overlay.fadeOut(100);
+});
+$cancel.click(function() {
+  $overlay.fadeOut(100);
+});
 
 
+$heart.click(function() {
+  $(this).toggleClass("fa-heart-o fa-heart heart-pumping");
+});
 
-    // if ($(this).hasClass("heart-pumping")) {
-    //   $(this).removeClass("heart-pumping");
-    // } else {
-    //   $(this).addClass("heart-pumping");
-    // }
-  });
+
+// if ($(this).hasClass("heart-pumping")) {
+//   $(this).removeClass("heart-pumping");
+// } else {
+//   $(this).addClass("heart-pumping");
+// }
+});
 });
 
 // $(document).ready(function() {
